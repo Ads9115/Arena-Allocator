@@ -1,0 +1,11 @@
+# Ignore the entire build directory and its contents
+build/
+
+# Ignore VS Code local settings
+.vscode/
+
+# Ignore all MSVC compiled binaries and debug files globally just in case
+*.exe
+*.pdb
+*.ilk
+*.obj
