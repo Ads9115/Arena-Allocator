@@ -23,7 +23,7 @@ public:
     ArenaAllocator operator=(const ArenaAllocator&) = delete;
 
     void* Allocate(size_t size, size_t alignment);
-    void* Reset();
+    void Reset();
 
     //Template
     template<typename T, typename... Args>
