@@ -1,7 +1,7 @@
 #include <iostream>
 #include "ArenaAllocator.hpp"
 
-// 1. Your custom math structures
+// 1.custom math structures
 struct vec3 { 
     float x, y, z; 
     vec3(float _x, float _y, float _z) : x(_x), y(_y), z(_z) {}
